@@ -40,7 +40,7 @@ body {
     overflow: auto;
     height: auto;
     padding: 20px 15px;
-    background: #429a82;
+    background: #a0410d;
 }
 
 #book-appointment-wizard #company-name {
@@ -129,7 +129,7 @@ body {
     height: 35px;
     width: 35px;
     float: left;
-    background: #225d4d;
+    background: #E88672;
     padding: 8px;
     margin-right: 12px;
     margin-top: 6px;
@@ -145,7 +145,7 @@ body {
     font-size: 12px;
     display: block;
     text-align: center;
-    color: #0bb98d;
+    color: #ffffff;
     transition: all .3s linear;
     cursor: default;
 }
@@ -162,7 +162,7 @@ body {
 }
 
 #book-appointment-wizard .active-step strong {
-    color: #429a82;
+    color: #a0410d;
     font-size: 21px;
 }
 
@@ -189,8 +189,8 @@ body {
 }
 
 #book-appointment-wizard #available-hours .selected-hour {
-    background-color: #439a82;
-    border-color: #439a82;
+    background-color: #E17661;
+    border-color: #E17661;
     color: white;
 }
 
@@ -384,7 +384,7 @@ body {
 #success-frame .btn {
     margin-bottom: 10px;
     width: 80%;
-    max-width: 300px;
+    max-width: 250px;
 }
 
 @media (min-width: 768px) {
@@ -419,4 +419,15 @@ body {
     }
 }
 
+/* coal face stories adjustoments */
+body .ui-datepicker td a.ui-state-highlight
+{
+    background:#FFFFB3!important;
+    color:#391705!important;
+}
 
+html body .ui-datepicker td a.ui-state-active
+{
+    background:#9A321D!important;
+    color:#ffffff!important;
+}
