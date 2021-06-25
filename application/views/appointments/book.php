@@ -243,7 +243,7 @@
             <div id="wizard-frame-3" class="wizard-frame" style="display:none;">
                 <div class="frame-container">
 
-                    <h2 class="frame-title"><?= lang('customer_information') ?></h2>
+                    <h2 class="frame-title"><?= lang('guest_information') ?></h2>
 
                     <div class="row frame-content">
                         <div class="col-12 col-md-6">
@@ -396,11 +396,11 @@
 
             <div id="frame-footer">
                 <small>
-                    <span class="footer-powered-by">
+                    <?php /*<span class="footer-powered-by">
                         Powered By
 
                         <a href="https://easyappointments.org" target="_blank">Easy!Appointments</a>
-                    </span>
+                    </span> */?>
 
                     <span class="footer-options">
                         <span id="select-language" class="badge badge-secondary">
