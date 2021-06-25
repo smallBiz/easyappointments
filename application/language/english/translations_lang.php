@@ -328,3 +328,4 @@ $lang['list'] = 'List';
 $lang['default'] = 'Default';
 $lang['table'] = 'Table';
 $lang['date'] = 'Date';
+$lang['guest_information'] = 'Guest Information';

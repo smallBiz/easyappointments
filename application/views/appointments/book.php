@@ -42,7 +42,7 @@
                         <strong>2</strong>
                     </div>
                     <div id="step-3" class="book-step" data-toggle="tooltip"
-                         data-tippy-content="<?= lang('customer_information') ?>">
+                         data-tippy-content="<?= lang('guest_information') //lang('customer_information') ?>">
                         <strong>3</strong>
                     </div>
                     <div id="step-4" class="book-step" data-toggle="tooltip"
